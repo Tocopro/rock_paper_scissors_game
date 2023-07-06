@@ -2,7 +2,6 @@
 body
 {
     background-color: gold;
-
 }
 /*-----------aligning the webpage heading -------------------*/
 h1
@@ -46,7 +45,6 @@ h1
     font-family: helvetica serif;
     font-size: 17px;
 }
-
 /*---------------container for the flexbox that contains the button for all plays ----------------*/
 .container1
 {
@@ -105,9 +103,8 @@ h1
 {    
     display: inline-block;
     padding-right: 5px;
-    font-size: 17px; 
-           
-}
+    font-size: 17px;
+}          
 .player_score
 {
     display: inline-block;
@@ -145,8 +142,7 @@ h1
     margin-left: 350px;
     padding-left: 50px;
     font-size: 17px;
-    font-weight: bold;
-   
+    font-weight: bold;   
 }
 #container5
 {
@@ -219,13 +215,11 @@ h1
 }
 #play_again_button
 {
-    
     font-size: 17px;
     font-weight: bold;
     position: absolute;
     left: 420px;
-    bottom: 20px;
-    
+    bottom: 20px;    
 }
 @media screen  and (max-width: 680px)
 {
@@ -262,8 +256,7 @@ h1
         top: 280px;
     }
     .container1
-    {
-       
+    {       
         margin-left: 40px;        
         width: 350px;
         font-size: 12px;
@@ -309,7 +302,6 @@ h1
         left: 100px;
         top: 20px;
     }
-
     #play_again_button
     {
         font-size: 14px;
@@ -333,11 +325,7 @@ h1
         position: absolute;
         left: 170px;
         font-size: 18px;
-    }
- 
-        
-
-   
+    }   
 }
 
 

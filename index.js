@@ -5,7 +5,6 @@ var number_of_plays = 0;
 var array2 = [];
 var choice5 = "";
 var final_score = 0;
-
 function information()
 {
     let text = document.getElementById("text1");
@@ -14,23 +13,20 @@ function information()
 function hide_function()
 {   
         let text = document.getElementById("text1")
-       text.style.display = "none";   
-
+       text.style.display = "none";
 }
 /*-------------------Random number generator used to pick the item on the list by index----------*/
 function getRandomInt(max)
 {
     max = 3;
     let choice4 = Math.floor(Math.random() * 3);       
-    choice5 = choice4; 
-      
+    choice5 = choice4;      
 }
 /*-------------the function that is called when the player clicks on the rock button -----------*/
 function choice_rock()
 {
     let choice1 = document.getElementById("rock").value;
-    return choice1;
-       
+    return choice1;       
 }
 /*-------------the function that is called when the player clicks on the paper button -----------*/
 function choice_paper()
@@ -60,8 +56,6 @@ function activate1()/* function call by clicking on the rock button*/
     {
         computer += 1;
         console.log("Computer Score " + computer);
-        
-
     }
     else if(arrays[choice5] === "scissors")
     {
@@ -150,8 +144,7 @@ function activate3()/* function call by clicking on the scissors button*/
     console.log("Number of plays currently " + number_of_plays);
     document.getElementById("computer_score").innerHTML = computer;
     document.getElementById("player_score").innerHTML = player;
-    document.getElementById("no_of_plays").innerHTML = number_of_plays;        
-   
+    document.getElementById("no_of_plays").innerHTML = number_of_plays;   
 }
 let users_selection = document.querySelector("#container5");
 function written()
